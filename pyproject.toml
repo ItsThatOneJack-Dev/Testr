@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "testr_testing_project"
+version = "1.0.0"
+authors = [
+  { name="ItsThatOneJack", email="github@testrproject.anonaddy.com" },
+]
+description = "Testr allows you to make your own automatic unit or integration tests, by checking the outputs of functions!"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero GPL Licence",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "colorama"
+]
+
+[project.urls]
+Homepage = "https://github.com/ItsThatOneJack-Dev/Testr"
+Issues = "https://github.com/ItsThatOneJack-Dev/Testr/issues"
